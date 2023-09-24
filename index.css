@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #3498db, #e74c3c);
+    color: #fff; /* Set text color to contrast with the gradient background */
+}
+
+/* Headings */
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2rem; /* Equivalent to 32px */
+    margin: 0 0 20px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#clear-btn {
+    background: rgb(55, 44, 107);
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+/* Counters */
+#counters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a2e2e;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    font-size: 2rem; /* Equivalent to 32px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.max-width-wrapper {
+    max-width: 800px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the wrapper horizontally */
+    padding: 20px; /* Optional: Add padding to the wrapper */
+    background-color: #f0f0f0; /* Optional: Add a background color to the wrapper */
+}
